@@ -5,6 +5,9 @@
    anulat din cauza condițiilor meteorologice de la aeroportul de plecare sau de destinație. Aeroportul de destinație
    poate fi schimbat în timpul zborului din cauza problemelor tehnice raportate de comandant.
 
+   Baza de date folosita: Postgresql.
+   DDL-urile tabelelor si datele mock sunt in resources/migration
+
 - Elev: Cebotari Viktor 
 - Grupa: P-2041
 - Profesoară: Luncașu Galina
