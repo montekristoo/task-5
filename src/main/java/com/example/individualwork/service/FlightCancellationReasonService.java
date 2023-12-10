@@ -1,6 +1,6 @@
 package com.example.individualwork.service;
 
-import com.example.individualwork.model.FlightCancellation;
+import com.example.individualwork.model.raw.FlightCancellation;
 import com.example.individualwork.repository.FlightCancellationRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;

@@ -1,6 +1,6 @@
 package com.example.individualwork.service;
 
-import com.example.individualwork.model.FlightCrew;
+import com.example.individualwork.model.raw.FlightCrew;
 import com.example.individualwork.repository.FlightCrewRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;

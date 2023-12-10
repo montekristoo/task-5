@@ -1,6 +1,6 @@
 package com.example.individualwork.service;
 
-import com.example.individualwork.model.CancellationReason;
+import com.example.individualwork.model.raw.CancellationReason;
 import com.example.individualwork.repository.CancellationReasonRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;

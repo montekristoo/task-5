@@ -1,7 +1,8 @@
-package com.example.individualwork.model;
+package com.example.individualwork.model.raw;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import lombok.Data;
 
@@ -9,7 +10,7 @@ import lombok.Data;
 @Entity(name = "aircraft")
 public class AirCraft {
     @Id
-    @GeneratedValue
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int aircraftId;
     private String aircraftName;
     private int capacity;
